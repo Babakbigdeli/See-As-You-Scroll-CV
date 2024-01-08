@@ -1,0 +1,86 @@
+body{
+    background: #131728;
+    color: #CC7722;
+    margin-top:100px;
+    }
+
+    .background {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    }
+    
+    #backgroundLeft {
+    font-family: 'Helvetica';
+    padding: 20px;
+    width: 6vw;
+    font-size: 60px;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+
+    }
+
+    #backgroundRight {
+    width: 55vw;
+    padding: 270px 40px 20px 150px;
+    text-align: justify;
+    font-family: 'Helvetica';
+    font-size: 40px;
+    }
+    
+    #backgroundMiddle {
+    width: 25vw;
+    padding-top: 401px;
+    overflow:scroll;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    height: 0vh;
+    }
+
+    #backgroundMiddle:focus {
+    outline: none;
+    }
+
+    .foreground {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+    
+    #foregroundRight {
+    width: 60vw;
+    text-align: justify;
+    padding: 100px 40px 20px 150px;
+    font-family: 'Helvetica';
+    font-size: 40px;
+    overflow: visible;
+    z-index:1;
+    }
+
+    #foregroundMiddle {
+    width: 27vw;
+    text-align: center;
+    height: 400px;
+    outline: solid ;
+    background: #282413; 
+    }
+
+    #foregroundLeft {
+    width: 6vw;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    }
+    
+    a{
+    color:#32cd32;
+    }
+
+    #backgroundMiddle::-webkit-scrollbar {
+    display: none;
+    }
+    

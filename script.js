@@ -1,4 +1,4 @@
-// to have the arrowkey to scroll the div  without the need to click on it
+// to make the arrowkey scrolling the div  without the need to click on it
 window.onload = function() {
     var activDiv = document.getElementById('backgroundMiddle');
     activDiv.focus();
@@ -8,21 +8,23 @@ window.onload = function() {
     });
 }
 
-
-const checkTarget = document.getElementById('myName')
-console.log(window.scrollY)
+// to specify the scrollable div using mousewheel and scrolling behaviour
 const scrollableDiv = document.getElementById('backgroundMiddle');
-const scrollSpeed = 0.2;
+const scrollSpeed = 0.1;
 document.addEventListener('wheel', (event) => {
     scrollableDiv.scrollTop += event.deltaY * scrollSpeed;
     });
 
+//the root element of the Intersection Observer
 const rootElement = document.querySelector('.foreground');
+
 const options = {
     root: rootElement,
     rootMargin: "-250px 0px 0px 0px",
     threshold: 1, 
     };
+
+//an object containing the copywriting content. this will be used to display the dynamic content
 const captions = [
     {
     target: 'myName',
@@ -141,7 +143,7 @@ const captions = [
     ];
     
 
-
+//the Intersection Observer function
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
     const targetElement = captions.find(item => item.target === entry.target.id);

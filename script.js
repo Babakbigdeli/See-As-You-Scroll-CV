@@ -130,7 +130,7 @@ const captions = [
     <p>Email: <a href="mailto:babakbigdeli@gmail.com">babakbigdeli@gmail.com</a></p>
     <p>LinkedIn: <a style="text-align: left; font-size: 36px;" href="https://www.linkedin.com/in/babak-bigdeli-3b999055"; target="_blank">Click Here</a></p>
     <p>Github:&nbsp;<a style="text-align: left; font-size: 36px;" href="https://github.com/Babakbigdeli"; target="_blank">Click Here</a></p>
-    <p>My Printable CV: <a style="text-align: left; font-size: 36px;" href="https://drive.google.com/file/d/1R6taMOMiAz7SLNdGrI4IHz0Xtnj5d7LQ/view?usp=sharing"; target="_blank">Click Here</a></p>
+    <p>My Printable CV: <a style="text-align: left; font-size: 36px;" href="https://drive.google.com/file/d/1Vf44TDmsAZdJz4QX-mpP99oDt87cQh56/view?usp=sharing"; target="_blank">Click Here</a></p>
     `,
     },
     {

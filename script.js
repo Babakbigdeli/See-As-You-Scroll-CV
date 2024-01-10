@@ -2,6 +2,10 @@
 window.onload = function() {
     var activDiv = document.getElementById('backgroundMiddle');
     activDiv.focus();
+    // to refocus the div when user clicks elsewhere on the document
+    activDiv.addEventListener('blur', function() {
+        activDiv.focus();
+    });
 }
 
 

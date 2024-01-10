@@ -1,6 +1,9 @@
-document.addEventListener("DOMContentLoaded", function(){
-    document.getElementById("backgroundMiddle").focus()
-})
+// to have the arrowkey to scroll the div  without the need to click on it
+window.onload = function() {
+    var activDiv = document.getElementById('backgroundMiddle');
+    activDiv.focus();
+}
+
 
 const checkTarget = document.getElementById('myName')
 console.log(window.scrollY)
